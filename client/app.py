@@ -29,7 +29,7 @@ class App(tk.Frame):
 		tk.Frame.__init__(self, master)
 		self.grid()
 		self.make_gui()
-		self.master.title = "Fuck"
+		self.master.title = "Car Program"
 		self.keys = {}
 
 		self.master.bind("<KeyPress>", self._key_press)
